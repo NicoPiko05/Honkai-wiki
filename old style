@@ -1,0 +1,340 @@
+.slide {
+    background-color: #535d7d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.slide .overlap-wrapper {
+    background-color: #535d7d;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+
+.slide .overlap {
+    position: relative;
+    width: 2200px;
+    height: 1080px;
+    left: -140px;
+    background-color: #000000;
+}
+
+.slide .frame {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    left: 140px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.slide .frame::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.slide .honkai-impact-logo {
+    width: 1276px;
+    height: 851px;
+    top: 115px;
+    left: 322px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.slide .group {
+    position: absolute;
+    width: 1920px;
+    height: 2773px;
+    top: 1124px;
+    left: 0;
+}
+
+.slide .rectangle {
+    position: absolute;
+    width: 1787px;
+    height: 449px;
+    top: 1865px;
+    left: 67px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: #ffffff;
+    opacity: 0.3;
+}
+
+.slide .footer {
+    position: absolute;
+    width: 1920px;
+    height: 348px;
+    top: 2425px;
+    left: 0;
+    background-color: #000000;
+}
+
+.slide .discord {
+    position: absolute;
+    width: 165px;
+    height: 120px;
+    top: 134px;
+    left: 1386px;
+    object-fit: cover;
+}
+
+.slide .tumblr {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 134px;
+    left: 1591px;
+    object-fit: cover;
+}
+
+.slide .instagram {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 134px;
+    left: 1734px;
+    object-fit: cover;
+}
+
+.slide .img {
+    width: 587px;
+    height: 348px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.slide .wiki-info {
+    position: absolute;
+    width: 567px;
+    height: 811px;
+    top: 1010px;
+    left: 102px;
+}
+
+.slide .overlap-group {
+    position: relative;
+    width: 565px;
+    height: 811px;
+    border-radius: 30px;
+}
+
+.slide .div {
+    position: absolute;
+    width: 565px;
+    height: 811px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: #ffffff;
+    opacity: 0.3;
+}
+
+.slide .text-wrapper {
+    position: absolute;
+    width: 418px;
+    height: 40px;
+    top: 66px;
+    left: 66px;
+    font-family: "Iceland-Regular", Helvetica;
+    font-weight: 400;
+    color: #a1a1a1;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
+.slide .overlap-2 {
+    position: absolute;
+    width: 1717px;
+    height: 966px;
+    top: 0;
+    left: 102px;
+    border-radius: 30px;
+}
+
+.slide .rectangle-2 {
+    position: absolute;
+    width: 1717px;
+    height: 966px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: #ffffff;
+    opacity: 0.3;
+}
+
+.slide .group-2 {
+    position: absolute;
+    width: 1584px;
+    height: 886px;
+    top: 35px;
+    left: 67px;
+}
+
+.slide .mask-group {
+    position: absolute;
+    width: 527px;
+    height: 765px;
+    top: 121px;
+    left: 1055px;
+}
+
+.slide .mask-group-2 {
+    left: 528px;
+    position: absolute;
+    width: 527px;
+    height: 765px;
+    top: 121px;
+}
+
+.slide .mask-group-3 {
+    left: 0;
+    position: absolute;
+    width: 527px;
+    height: 765px;
+    top: 121px;
+}
+
+.slide .text-wrapper-2 {
+    position: absolute;
+    height: 80px;
+    top: 0;
+    left: 349px;
+    font-family: "Iceland-Regular", Helvetica;
+    font-weight: 400;
+    color: #a1a1a1;
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
+.slide .where-to-go {
+    position: absolute;
+    width: 1087px;
+    height: 811px;
+    top: 1010px;
+    left: 734px;
+}
+
+.slide .overlap-3 {
+    position: relative;
+    width: 1085px;
+    height: 811px;
+    border-radius: 30px;
+}
+
+.slide .rectangle-3 {
+    position: absolute;
+    width: 1085px;
+    height: 811px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: #ffffff;
+    opacity: 0.3;
+}
+
+.slide .text-wrapper-3 {
+    position: absolute;
+    width: 525px;
+    height: 53px;
+    top: 60px;
+    left: 280px;
+    font-family: "Iceland-Regular", Helvetica;
+    font-weight: 400;
+    color: #a1a1a1;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
+.slide .overlap-group-wrapper {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 12px;
+    left: 1833px;
+}
+
+.slide .overlap-4 {
+    position: relative;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.slide .rectangle-4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    opacity: 0.3;
+}
+
+.slide .magnifying-glass {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 16px;
+    left: 16px;
+    object-fit: cover;
+}
+
+.slide .div-wrapper {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 12px;
+    left: 12px;
+}
+
+.slide .rectangle-5 {
+    position: absolute;
+    width: 53px;
+    height: 10px;
+    top: 33px;
+    left: 12px;
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+.slide .rectangle-6 {
+    position: absolute;
+    width: 53px;
+    height: 10px;
+    top: 48px;
+    left: 12px;
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+.slide .rectangle-7 {
+    position: absolute;
+    width: 53px;
+    height: 10px;
+    top: 19px;
+    left: 12px;
+    background-color: #808080;
+    border-radius: 10px;
+}
