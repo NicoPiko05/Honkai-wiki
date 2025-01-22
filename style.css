@@ -19,8 +19,8 @@ p{
     text-align: justify;
     margin: 25px;
     font-family: sans-serif;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .background-video {
@@ -122,16 +122,17 @@ p{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     opacity: 1;
-    width: 100%;
+    width: 90%;
+    height: 85%;
 
 }
 
 .grid-item {
     width: 150px;
     height: 150px;
-    align-items: center;
-    overflow: hidden;
+    place-self: center;
 }
+
 .grid-title {
     text-align: center;
     color: #D2D2D2;
