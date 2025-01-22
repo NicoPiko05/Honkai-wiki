@@ -52,7 +52,7 @@ p{
     margin: 100px;
     display: flex;
     width: 1400px;
-    height: 250vh;
+    height: 200vh;
     flex-direction: column;
     justify-content: space-between;
     gap: 55px;
@@ -65,7 +65,7 @@ p{
 
 .card {
     width: 100%;
-    height: 700px;
+    height: auto;
     border-radius: 30px;
     border: 5px solid #717171;
     background: rgba(122, 122, 122, 0.3)
@@ -77,6 +77,7 @@ p{
     width: 100%;
 }
 .main-categories-flex {
+    margin: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,6 +147,7 @@ p{
 
 /* Style the search box inside the navigation bar */
 .searchbar input[type=text] {
+    z-index: 5;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -189,20 +191,20 @@ footer div img {
 }
 
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1360px) {
     .categories {
         width: 95%;
     }
     h1 {
         font-size: 40px;
     }
-    p {
-        margin: 10px;
-        font-size: 15px;
+    .about-wiki p {
+        margin: 15px;
+        font-size: 18px;
         line-height: 20px;
     }
     .elysia {
-        height: 150px;
+        height: 250px;
     }
     .grid {
         grid-template-columns: repeat(3, 1fr);
@@ -214,6 +216,12 @@ footer div img {
     }
     .grid-title {
         font-size: 25px;
+    }
+    footer div img {
+        width: 300px;
+    }
+    footer div div img {
+        width: 70px;
     }
 
 }
@@ -228,4 +236,15 @@ footer div img {
     footer div div {
         flex-direction: row;
     }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-wiki p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .elysia {
+        height: 250px;
+    }
+
 }
