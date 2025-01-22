@@ -81,6 +81,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     border-radius: 15px;
     overflow: hidden;
     width: 100%;
@@ -95,11 +96,11 @@ p{
 
 
 .main-categories-flex img:hover {
-    width: 560px;
+    width: 30vw;
     transition: all 0.5s ease;
 }
 .main-categories-flex img:not(:hover) {
-    width: 400px;
+    width: 20vw;
     transition: all 0.5s ease;
 }
 
@@ -223,6 +224,14 @@ footer div img {
     footer div div img {
         width: 70px;
     }
+    .main-categories-flex img:hover {
+        width: 36vw;
+        transition: all 0.5s ease;
+    }
+    .main-categories-flex img:not(:hover) {
+        width: 24vw;
+        transition: all 0.5s ease;
+    }
 
 }
 
@@ -246,5 +255,12 @@ footer div img {
     .elysia {
         height: 250px;
     }
-
+    .main-categories-flex img:hover {
+        width: 25vw;
+        transition: all 0.5s ease;
+    }
+    .main-categories-flex img:not(:hover) {
+        width: 25vw;
+        transition: all 0.5s ease;
+    }
 }
