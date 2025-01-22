@@ -109,6 +109,9 @@ p{
     align-items: center;
     width: 35%;
 }
+.elysia{
+    height: 250px;
+}
 
 .where-togo {
     display: flex;
@@ -183,4 +186,46 @@ footer div p {
 
 footer div img {
     width: 450px;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .categories {
+        width: 95%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        margin: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .elysia {
+        height: 150px;
+    }
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-item{
+        height: 120px;
+        width: 120px;
+        place-self: center;
+    }
+    .grid-title {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        height: 600px;
+    }
+    footer div {
+        flex-direction: column;
+    }
+    footer div div {
+        flex-direction: row;
+    }
 }
